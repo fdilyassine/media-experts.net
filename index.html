@@ -772,31 +772,83 @@ Agence digitale multisectorielle : High-tech, automobile, mode-beauté, grande c
             <div class="contact-btn-txt">Contact</div>
         </div>
         <div class="contact-modal background-section">
-            <div class="dsn-container contact-inner section-margin">
-                <div class="contact-content d-flex flex-column p-relative background-main box-padding h-100">
-                    <h4 class="title-block p-relative mb-30 text-uppercase border-section-bottom">
-                        Contact Info</h4>
+            <!-- <div class="dsn-container contact-inner section-margin"> -->
+                <div class="contact-content d-flex flex-column p-relative background-main box-padding h-100" >
+                    <div class="row">
+                        <div class="col-lg-8 col-md-6">
+                            <div class="form-box d-flex flex-column">
+                                <h4 class="title-block p-relative mb-30 text-uppercase border-section-bottom">Comment Nous pouvons vous aider?</h4>
+                                <form id="contact-form" class="form w-100" method="POST" action="contact.php"
+                                    data-toggle="validator">
+                                    <div class="messages"></div>
+                                    <div class="input__wrap controls">
+                                        <div class="form-group">
+                                            <div class="entry-box">
+                                                <label>Votre Nom *</label>
+                                                <input id="form_name" type="text" name="name"
+                                                    placeholder="Tapez votre nom" required="required"
+                                                    data-error="Le nom est requis.">
+                                            </div>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
 
-                    <div class="content-bottom">
-                        <div class="item">
-                            <h5 class="sm-title-block mb-15">Téléphone :</h5>
-                            <p>Mobile 1 : <a href="tel:+212614337765"> +212 614-337765</a><br>Mobile 2 : <a
-                                    href="tel:+212671133234"> +212 671-133234</a></p>
-                        </div>
+                                        <div class="form-group">
+                                            <div class="entry-box">
+                                                <label>Votre E-Mail *</label>
+                                                <input id="form_email" type="email" name="email"
+                                                    placeholder="Tapez votre adresse e-mail" required="required"
+                                                    data-error="Un E-mail valide est requis.">
+                                            </div>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
 
-                        <div class="item">
-                            <h5 class="sm-title-block mb-15">Email :</h5>
-                            <a href="mailto:support@media-experts.net"> - Support@media-experts.net</a><br><a
-                                href="mailto:lamiaa.errafii@media-experts.net">- lamiaa.errafii@media-experts.net</a>
-                        </div>
+                                        <div class="form-group">
+                                            <div class="entry-box">
+                                                <label>Quoi de neuf?</label>
+                                                <textarea id="form_message" class="form-control" name="message"
+                                                    placeholder="Parlez-nous de vous et du monde"
+                                                    required="required"
+                                                    data-error="S'il vous plaît, laissez-nous un message."></textarea>
+                                            </div>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
 
-                        <div class="item">
-                            <h5 class="sm-title-block mb-15">Adresse :</h5>
-                            <a> - 19 lotiss. Sabrine Sidi Maârouf Casablanca - Maroc.</a>
+                                        <div class="text-right">
+                                            <div class="image-zoom w-auto d-inline-block move-circle"
+                                                data-dsn="parallax">
+                                                <input type="submit" value="Envoyer " class="v-light">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
-                    </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div
+                                class="contact-content xs-mt-block d-flex flex-column p-relative background-section style-box h-100">
+                                <h4 class="title-block p-relative mb-30 text-uppercase border-section-bottom">
+                                    Contact Info</h4>
+
+                                <div class="content-bottom">
+                                    <div class="item">
+                                        <h5 class="sm-title-block mb-15">Adresse :</h5>
+                                        <p>38 BD Driss Lahrizi<br> 2eme Etage Centre Ville<br> Casablanca, Maroc.</p>
+                                    </div>
+
+                                    <div class="item">
+                                        <h5 class="sm-title-block mb-15">Email</h5>
+                                        <a href="mailto:support@media-experts.net"><small>support@media-experts.net</small></a>
+                                    </div>
+
+                                    <div class="item">
+                                        <h5 class="sm-title-block mb-15">Téléphone</h5>
+                                        <a href="tel:+212614337765">Mob 1 : +212 614-337765 </a><br><a href="tel:+212671133234">Mob 2 : +212 671-133234</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                 </div>
-            </div>
+            <!-- </div> -->
         </div>
 
         <!-- ========== End Contact Form Model ========== -->
