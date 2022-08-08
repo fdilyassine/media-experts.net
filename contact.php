@@ -47,9 +47,10 @@ try {
 	           'X-Mailer: PHP/' . phpversion();
 
 
-
+	if(isset($_POST['submit'])){
 	// Send email
-	mail( $sendTo, $subject, $message, $headers );
+		mail( $sendTo, $subject, $message, $headers );
+	}
 
 	$responseArray = array('type' => 'success', 'message' => $okMessage);
 } catch ( \Exception $e ) {
