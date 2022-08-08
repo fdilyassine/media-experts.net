@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr-FR">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -571,18 +572,18 @@ fait pas peur</h2><br>
             </div>
 
         </div>
-                <!-- ========== Contact Form Model ========== -->
         <!-- ========== Contact Form Model ========== -->
         <div class="contact-btn">
             <div class="contact-btn-txt">Contact</div>
         </div>
         <div class="contact-modal background-section">
             <!-- <div class="dsn-container contact-inner section-margin"> -->
-                <div class="contact-content d-flex flex-column p-relative background-main box-padding h-100" >
+                <div class="contact-content d-flex flex-column p-relative background-main box-padding h-100" style="overflow-y:scroll; " >
                     <div class="row">
                         <div class="col-lg-8 col-md-6">
                             <div class="form-box d-flex flex-column">
                                 <h4 class="title-block p-relative mb-30 text-uppercase border-section-bottom">Comment Nous pouvons vous aider?</h4>
+                                <p style="font-size: 15px;">NB: Si la case est bloquée cliquez sur TAB ou Envoyer</p><br>
                                 <form class="form w-100" method="POST" action="https://forms.un-static.com/forms/bf64b7179024e296e6ce0ab45abfe74b87797e12"
                                     data-toggle="validator">
                                     <div class="messages"></div>
@@ -609,7 +610,7 @@ fait pas peur</h2><br>
 
                                         <div class="form-group">
                                             <div class="entry-box">
-                                                <label>Quoi de neuf?</label>
+                                                <label>Votre Demande?</label>
                                                 <textarea id="form_message" class="form-control" name="message"
                                                     placeholder="Parlez-nous de vous et du monde"
                                                     required="required"
@@ -617,11 +618,12 @@ fait pas peur</h2><br>
                                             </div>
                                             <div class="help-block with-errors"></div>
                                         </div>
-
-                                        <div class="text-right">
+                                        
+                                        
+                                        <div class="text-right" >
                                             <div class="image-zoom w-auto d-inline-block move-circle"
-                                                data-dsn="parallax">
-                                                <input type="submit" value="Envoyer " class="v-light">
+                                                data-dsn="parallax" >
+                                                <input type="submit" value="Envoyer " class="v-light" style="top: -40px;">
                                             </div>
                                         </div>
                                     </div>
