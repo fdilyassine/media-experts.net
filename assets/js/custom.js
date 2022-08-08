@@ -163,7 +163,7 @@
                     // POST values in the background the the script URL
                     $.ajax({
                         type: "POST",
-                        url: "contact.php",
+                        url: "https://forms.un-static.com/forms/82b776ca14c0df4448ae499d9d169cb3193e2ce5",
                         data: $(this).serialize(),
                         success: function (data) {
                             // data = JSON object that contact.php returns
