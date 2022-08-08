@@ -44,7 +44,7 @@
 :root, :root .v-light, :root .v-light-head {
   --bg-color: #fff;
   --assistant-color: #f1f1f1;
-  --theme-color: #ab14bf;
+  --theme-color: #14bfb5;
   --font-color: #0009;
   --heading-color: #000;
   --border-color: #cccccc;
@@ -56,7 +56,7 @@
 :root .v-dark, :root .v-dark-head {
   --bg-color: #000;
   --assistant-color: #080808;
-  --theme-color: #ab14bf;
+  --theme-color: #14bfb5;
   --font-color: #bbb;
   --heading-color: #fff;
   --border-color: #ffffff14;
